@@ -9,6 +9,7 @@ import CustomButton from "../../../components/customButton/CustomButton";
 import FileUploader from "../../../components/fileUploader/FileUploader";
 
 function AnswerExpertToQuestion() {
+  const { t } = useTranslation();
   return (
     <div className={s.mainContainer}>
       <div className={s.answer_header}>
