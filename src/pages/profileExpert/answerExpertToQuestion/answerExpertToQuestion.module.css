@@ -1,0 +1,12 @@
+.mainContainer {
+  margin: 0 auto;
+  max-width: 375px;
+  width: 100%;
+}
+
+.answer_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 20px 17px 20px;
+}

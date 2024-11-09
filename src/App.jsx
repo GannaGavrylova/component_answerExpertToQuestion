@@ -25,6 +25,7 @@ import AboutServicePage from "./pages/aboutServicePage/AboutServicePage";
 import P_settings from "./pages/profile/p_settings/P_settings";
 import E_settingsNotificationProfilePage from "./pages/editProfile/e_settingsNotificationProfilePage/E_settingsNotificationProfileSpecialistPage";
 import E_settingsNotificationProfileUserPage from "./pages/editProfile/e_settingsNotificationProfileUserPage/E_settingsNotificationProfileUserPage";
+import AnswerExpertToQuestion from "./pages/profileExpert/answerExpertToQuestion/AnswerExpertToQuestion";
 
 function App() {
   const [isLoading, setIsLoading] = useState(false); // TODO: replace to true in production
@@ -108,6 +109,10 @@ function App() {
         <Route
           path="/profile/settings/user/notification"
           element={<E_settingsNotificationProfileUserPage />}
+        />
+        <Route
+          path="/profile/selected-questions/action/answer"
+          element={<AnswerExpertToQuestion />}
         />
       </Routes>
     </Router>
